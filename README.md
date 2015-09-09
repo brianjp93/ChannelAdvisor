@@ -2,8 +2,10 @@
 A python wrapper for the channel advisor api.
 I've been writing and testing the api in python2.7 but I learned python3 first, so it may very well work in python 3.
 
-Dependencies
-    suds, beautifulsoup
+### Dependencies
+- python2.7
+- suds
+- beautifulsoup
     
 ### Setup
 - Rename ```your.cookie``` to ```data.cookie```
