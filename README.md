@@ -37,3 +37,5 @@ from channelAdvisor import ChannelAdvisor
 ca = ChannelAdvisor()
 products = ca.synchInventoryItem("1001", title="ipod", description="black 32gb ipod", upc="########")
 ```
+
+I've written other functions which I'll try to document later if I have the motivation.
