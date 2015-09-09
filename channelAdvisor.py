@@ -582,6 +582,7 @@ class ChannelAdvisor():
 
     def getInventoryItemStoreInfo(self, sku):
         """
+        Internal Use
         retrieve info for a single sku
         returns xml data, does not parse
         """
