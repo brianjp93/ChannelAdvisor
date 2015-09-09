@@ -47,4 +47,4 @@ Temporary Items
 *.cookie
 *.json
 *.xml
-!your.data
+!your.cookie
