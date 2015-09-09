@@ -31,3 +31,9 @@ For example if you have a sku (1001), you can view details about that sku by doi
 ```python
 products["1001"]
 ```
+#### Update a sku with some information
+```python
+from channelAdvisor import ChannelAdvisor
+ca = ChannelAdvisor()
+products = ca.synchInventoryItem("1001", title="ipod", description="black 32gb ipod", upc="########")
+```
