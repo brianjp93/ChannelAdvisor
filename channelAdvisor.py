@@ -107,6 +107,7 @@ class ChannelAdvisor():
             return client
 
     def requestAccess(self):
+        self.connectAdmin()
         headers = self.makeHeaders()
         self.client.set_options(soapheaders=headers)
         self.client.service.RequestAccess(self.localID)
@@ -1097,7 +1098,7 @@ class ChannelAdvisor():
 def main():
     ca = ChannelAdvisor()
     ca.enableLogging()
-    ca.connectAdmin()
+    # ca.connectAdmin()
     ca.requestAccess()
 
 
@@ -1207,9 +1208,9 @@ def testGetOrders():
         print(pprint.pformat(order))
 
 if __name__ == '__main__':
-    # main()
+    main()
     # testInventoryRequest()
-    testParser()
+    # testParser()
     # testGetAllInventory()
     # testGetFilteredSkuList()
     # testGetAllOnSale()
