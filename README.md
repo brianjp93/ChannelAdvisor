@@ -7,7 +7,7 @@ Dependencies
     
 ### Setup
 - Create a "data.cookie" file in the directory you will be running python in
-  - Inside, write "**devkey \<devkey>**" replace <devkey> with your channeladvisor developer key
+  - Inside, write "**devkey \<devkey>**" replace \<devkey> with your channeladvisor developer key
   - write "**pwd \<pwd>**"
   - write "**localID \<localID>**"
 - run the main() function
