@@ -39,3 +39,5 @@ products = ca.synchInventoryItem("1001", title="ipod", description="black 32gb i
 ```
 
 I've written other functions which I'll try to document later if I have the motivation.
+#### License
+http://opensource.org/licenses/MIT
