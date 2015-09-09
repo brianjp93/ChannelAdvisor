@@ -13,10 +13,6 @@ $RECYCLE.BIN/
 *.msi
 *.msm
 *.msp
-*.txt
-*.cookie
-*.json
-*.xml
 
 # =========================
 # Operating System Files
@@ -45,3 +41,10 @@ Icon
 Network Trash Folder
 Temporary Items
 .apdisk
+
+# Other Files
+*.txt
+*.cookie
+*.json
+*.xml
+!your.data

@@ -6,17 +6,15 @@ Dependencies
     suds, beautifulsoup
     
 ### Setup
-- Create a "data.cookie" file in the directory you will be running python in
-  - Inside, write "**devkey \<devkey>**" replace \<devkey> with your channeladvisor developer key
-  - write "**pwd \<pwd>**"
-  - write "**localID \<localID>**"
+- Rename ```your.cookie``` to ```data.cookie```
+  - fill in the ??? next to pwd, devkey, and localID
 - run the main() function
 ```python
 import channelAdvisor
 main()
 ```
 - You should then be able to retrieve you account ID from channel advisor.
-  - Place this in the data.cookie file as "**accountid \<accountid>**"
+  - fill in data.cookie with your accountid (replace the last question marks)
 
 ### Usage
 #### Get a dictionary of your skus and information
